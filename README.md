@@ -22,7 +22,20 @@
 
     
 
-1. ***1st step*** [`PARING CODE`](https://byte-session.vercel.app/))
-2. ***Then `Go-to Whatapp>Three dots>Linked Devices`***
-3.  ***Click [`FORK`](https://github.com/HyHamza/BYTE-MD/fork)***
-4.  ***Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/HyHamza/BYTE-MD)***
+1. **1st step** [`PARING CODE`](https://byte-session.vercel.app/))
+2. **Then `Go-to Whatapp>Three dots>Linked Devices`**
+3.  **Click [`FORK`](https://github.com/HyHamza/BYTE-MD/fork)**
+4.  **Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/HyHamza/BYTE-MD)**
+
+
+
+
+**<strong>Linking methods:</strong>**
+
+##  Pairing link:1
+
+<a href="https://byte-session.vercel.app/"><img src="https://img.shields.io/badge/LOGIN%20WITH-PAIR%20CODE-red" alt="LOGIN WITH PAIR CODE" width="250"></a>
+
+## Pairing link:2 (if above isn't working)
+
+<a href="https://byte-session-2.vercel.app/"><img src="https://img.shields.io/badge/LOGIN%20WITH-PAIR%20CODE2-red" alt="LOGIN WITH PAIR CODE" width="250"></a>
