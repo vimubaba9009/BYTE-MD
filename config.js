@@ -28,7 +28,7 @@ global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "true";
 global.userImages = process.env.USER_IMAGES || "";
-global.waPresence = process.env.WAPRESENCE || "online";
+global.waPresence = process.env.WAPRESENCE || "available";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
@@ -40,26 +40,56 @@ global.read_status_from = process.env.READ_STATUS_FROM || "";
 global.api_smd = "https://HyHamza.vercel.app";
 global.scan = "https://byte-session.vercel.app/";
 
+
+
+
 global.SESSION_ID =
   process.env.SESSION_ID ||
+
+
+
+
+
+  
+
+
+//___________________________________________________________________________________________________
+
+
+  
   "Your session ID" //Make sure session id starts with Byte;;;
+
+
+
+//________________________________________________________________________
+
+
+
+
+
+
+
+
+
 module.exports = {
   menu: process.env.MENU || "",
-  HANDLERS: process.env.PREFIX || ",",
+
+  //Prefix variable
+  HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "*Powered By TalkDrove*",
   author: process.env.PACK_AUTHER || "TalkDrove",
   packname: process.env.PACK_NAME || "♥️",
   botname: process.env.BOT_NAME || "BYTE-MD",
-  ownername: process.env.OWNER_NAME || "Hamza",
-  errorChat: process.env.ERROR_CHAT || "923072380380",
+  ownername: process.env.OWNER_NAME || "TalkDrove",
+  errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "",
-  antilink_values: process.env.ANTILINK_VALUES || "chat.whatsapp.com",
+  antilink_values: process.env.ANTILINK_VALUES || "all",
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
